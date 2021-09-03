@@ -1,37 +1,74 @@
-YOUR NAME Lab 1: Intro to HTML
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Ali Shafiq Lab 1</title> <!--specify tab name-->
+        </head>
 
-First, the basics.
+    <body>
+    <h1>Ali Shafiq Lab 1: Intro to HTML</h1>
 
-You need the following to build your website.
+    <h2>First, the basics.</h2>
 
-HTML and CSS
-Javascript
-Node.js
-And other web development frameworks
+        <p>You need the following to build your website.</p>
 
-You should list your top 3 goals for the class below.
+            <ul>
+                <li>HTML and CSS</li>
+                <li>Javascript</li>
+                <li>Node.js</li>
+                <li>And other web development frameworks</li>
 
-Learn front-end web design
-Learn new programming languages
-Learn how to work with others in a technical space
-Learn popular web dev frameworks
+            </ul>
 
-Let's Try Some Inline Elements
+        <p>Top 5 favorite albums.</p>
 
-Sometimes you want to draw attention to something in a line of text.
+            <ol>
+                <li>Astroworld</li>
+                <li>BeerBongs &amp Bentleys</li> <!--&amp for '&'-->
+                <li>A Thousand Suns</li>
+                <!--&lpar and &rpar for round brackets-->
+                <li>? &lpar;Actual album name&rpar;</li> 
+                <li>Move it with</li>
+            </ol>
 
-Sometimes you want to strongly emphasize something in the text.
+    <h2>Let's Try Some Inline Elements</h2>
 
-Sometimes you want to do both.
+        <!--em fot text style/strong for bold text-->
+        <p>Sometimes you want to <em>draw attention to something</em> in a line of text.</p>
 
-Empty Elements
+        <p>Sometimes you want to <strong>strongly emphasize something</strong> in the 
+            text.</p>
 
-Soft line breaks can't wrap anything. Neither can image tags, or hard lines.
-Add a hard line under here, and make sure you've used some soft line breaks to match your page to the sample.
+        <p>Sometimes you want to <em><strong>do both.</strong></em></p>
 
-Images 
+    <h3>Empty Elements</h3>
 
-Don't forget to use alt text on your images. It's important for accessibility.
+        <p>Soft line breaks can't wrap anything.<br/> Neither can image tags, or 
+            hard lines.<br/>
+            Add a hard line under here, and make sure you've used some soft line 
+            breaks to match your page to the sample.</p>
 
-Include a hyperlink here to your github repository for class.
-If you want your repo to be private, be sure to invite Prof A as a "collaborator."
+        <hr/>  <!--Adds a horizontal line/br for soft break-->
+
+    <h2>Images</h2> 
+
+        <p> Added alt text for accessibility.</p>
+            <img src='Mochi/mochi.jpg' width='75' alt='A mochi ball in a bubble'/>
+            <img src='Mochi/mochi.gif' width='75' alt='A dancing mochi ball'/>
+            <img src='Mochi/mochi.png' width='75' alt='A mochi ball'/>
+            <img src='Mochi/mochi.svg' alt='A mochi ball with Bézier handles'/>
+
+            <!--width specify an images width/ alt for accessibility-->
+
+            <hr/>
+
+        <a href='https://github.com/Aliumd/INST377-Lab-Work.git' target='blank'
+        >Include a hyperlink here to your github repository for class.</a>
+
+        <!--target will open the link in a new tab-->
+
+        <p>If you want your repo to be private, be sure to invite Prof A as 
+        a "collaborator." </p>
+
+    </body>
+
+</html>
