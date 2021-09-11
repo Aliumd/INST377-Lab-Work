@@ -1,40 +1,82 @@
-YOUR NAME Lab 2: Intro to HTML
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8'/>
+        <title>Ali Shafiq Lab 2</title> <!--specify tab name-->
+        <link rel='stylesheet' href='styles.css'/>
+        </head>
 
-Selectors
-Main Page
+    <body>
+      <div class="wrapper">  
+    <div class='title'><h1>Ali Shafiq Lab 2: CSS Selectors</h1></div>
+    <nav><a href='selectors.html'>Selectors</a><a href="index.html">Main page</a></nav>
 
-First, the basics.
+    <div class='subtitle'><h2>First, the basics.</h2>
+        <div class="default"><p>You need the following to build your website.</p></div></div>
 
-You need the following to build your website.
+           <div class="section_1">
+            <ul>
+                <li>HTML and CSS</li>
+                <li>Javascript</li>
+                <li>Node.js</li>
+                <li>And other web development frameworks</li>
 
-HTML and CSS
-Javascript
-Node.js
-And other web development frameworks
+                </ul>
+                <div>
+                <p>Top 5 favorite albums</p>
+            <ol>   
+                <li>Astroworld</li>
+                <li>BeerBongs &amp Bentleys</li> <!--&amp for '&'-->
+                <li>A Thousand Suns</li>
+                <!--&lpar and &rpar for round brackets-->
+                <li>? &lpar;Actual album name&rpar;</li> 
+                <li>Move it with</li>
+            </ol></div> </div>
 
-You should list your top 3 goals for the class below.
+    <div class="section_2"><div class="subtitle"><h2>Let's Try Some Inline Elements</h2>
 
-Learn front-end web design
-Learn new programming languages
-Learn how to work with others in a technical space
-Learn popular web dev frameworks
+        <!--em fot text style/strong for bold text-->
+        <p>Sometimes you want to <em>draw attention to something</em> in a line of text.</p>
 
-Let's Try Some Inline Elements
+        <p>Sometimes you want to <strong>strongly emphasize something</strong> in the 
+            text.</p>
 
-Sometimes you want to draw attention to something in a line of text.
+        <p>Sometimes you want to <em><strong>do both.</strong></em></p></div></div>
 
-Sometimes you want to strongly emphasize something in the text.
+    <div class="section_3">
+        <h3>Empty Elements</h3>
 
-Sometimes you want to do both.
+        <p>Soft line breaks can't wrap anything.<br/> Neither can image tags, or 
+            hard lines.<br/>
+            Add a hard line under here, and make sure you've used some soft line 
+            breaks to match your page to the sample.</p>
 
-Empty Elements
+        <hr/></div>
 
-Soft line breaks can't wrap anything. Neither can image tags, or hard lines.
-Add a hard line under here, and make sure you've used some soft line breaks to match your page to the sample.
+    <div class="section_4"><div class="subtitle"><h2>Images</h2>
+        <p>Added alt text for accessibility.</p></div>
+        <div class='carousel'>
+            <div class='slides'>
+        
+            <img src='mochi-lab2/mochi.jpg' width='75' alt='A mochi ball in a bubble'/>
+            <img src='mochi-lab2/mochi.gif' width='75' alt='A dancing mochi ball'/>
+            <img src='mochi-lab2/mochi.png' width='75' alt='A mochi ball'/>
+            <img src='mochi-lab2/mochi.svg' alt='A mochi ball with Bézier handles'/>
 
-Images 
+            </div>
 
-Don't forget to use alt text on your images. It's important for accessibility.
+        </div>
+        </div>
 
-Include a hyperlink here to your github repository for class.
-If you want your repo to be private, be sure to invite Prof A as a "collaborator."
+        <a href='https://github.com/Aliumd/INST377-Lab-Work.git' target='blank'
+        >Include a hyperlink here to your github repository for class.</a>
+
+        <!--target will open the link in a new tab-->
+
+        <p>If you want your repo to be private, be sure to invite Prof A as 
+        a "collaborator." </p>
+
+        </div>
+    </body>
+
+</html>
