@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Lab 5: HTML Forms</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"/>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  
+  <body class="p-6 has-background-danger-light">
+    <div class="block">
+    <div class="notification has-background-warning">
+        <div class="is-size-3">
+        Ali Shafiq's Lab 5
+        </div>
+    </div>
+    </div>
+    <div class="level-item">
+    <div class="columns is-vcentered is-3 is-gapless">
+        <div class="column ">
+    <form action="/api" method="GET" class="box" style="width: 90%">
+        
+        <div class="field">
+            <label class="label">Name</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Text input">
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Food Preference</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Text input">
+            </div>
+          </div>
+          <div class="control">
+            <label class="label">Meat?</label>
+            <label class="radio">
+              <input type="radio" name="answer">
+              Yes
+            </label>
+            <label class="radio">
+              <input type="radio" name="answer">
+              No
+            </label>
+          </div>
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button is-danger">Submit</button>
+            </div>
+          </div>  
+        </div>       
+    </form>
+    
+
+    <div class="column">
+    <div class="box has-background-warning" style="width: 117%" >
+        This is going to be something in two weeks.
+    </div>
+    </div>
+    </div>
+    </div>
+
+  </body>
+</html>
