@@ -1,0 +1,33 @@
+body {
+  position: relative;
+  height: 100vh;
+  
+}
+
+.pad {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.result {
+  margin: 5px 0px;
+  background-color: rgb(243, 217, 131);
+  border-radius: 5px;
+  cursor: pointer;
+  width: 470px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.normal {
+  font-size: small;
+}
+
+#mapid {
+    height: 350px;
+    width: 469px;
+    border-radius: 25px;
+}

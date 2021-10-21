@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Lab 7: JSON to Map Markers</title>
+
+    <!--CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <!-- lealet Script -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  </head>
+
+  <body class="p-6 has-background-info-dark">
+    <div class="pad notification has-background-warning">
+      <div class="is-size-3">Ali's Lab 7</div>
+      <div class="is-size-7">Zip Code Food Search(PG County)</div>
+    </div>
+
+    <div class="columns is-desktop">
+      <form action="" method="" class="search">
+        <div class="field column">
+          <label class="label has-text-white">Search by zipcode</label>
+          <div class="control">
+            <input
+              class="box"
+              type="search"
+              placeholder="Enter Zip"
+              size="62"
+              style="height: 50px"
+            />
+          </div>
+
+          <ul class="suggestions" style="border-radius: 15px"></ul>
+        </div>
+      </form>
+
+      <div class="column">
+        <div id="mapid"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
